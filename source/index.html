@@ -3,9 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Название проекта</title>
+  <title>Cat-energy-31</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicons/180.png">
+  <link rel="manifest" href="manifest.webmanifest">
   <script src="scripts/index.js" defer></script>
 </head>
 
@@ -38,7 +42,11 @@
       <div class="hero__background">
         <h2 class="hero__title">Функциональное питание для котов</h2>
         <p class="hero__slogan">Занялся собой? Займись котом!</p>
-        <img class="hero__image" src="#" width="280" height="270" alt="Пример упаковки корма.">
+        <picture>
+          <source width="552" height="499" type="image/png" media="(min-width: 1440px)" srcset="images/hero-image-desktop@1x.png 1x, images/hero-image-desktop@2x.png 2x">
+          <source width="709" height="609" type="image/png" media="(min-width: 768px)" srcset="images/hero-image-tablet@1x.png 1x, images/hero-image-tablet@2x.png 2x">
+          <img class="hero__image" src="images/hero-image-mobile@1x.png" srcset="images/hero-image-mobile@2x.png 2x" width="280" height="270" alt="Пример упаковки корма.">
+        </picture>
         <a class="hero__button button-main" href="#">Подобрать программу</a>
       </div>
     </section>
@@ -94,8 +102,14 @@
                 <span class="visually-hidden">Ползунок менящий слайды</span>
               </button>
             </div>
-            <img class="slider__image" src="#" width="280" height="256" alt="Кот до курса">
-            <img class="slider__image" src="#" width="280" height="256" alt="Кот после курса">
+            <picture>
+              <source width="560" height="512" type="image/png" media="(min-width: 768px)" srcset="images/thin-cat-tablet@1x.png 1x, images/thin-cat-tablet@2x.png 2x">
+              <img class="slider__image" src="images/thin-cat-mobile@1x.png" srcset="images/thin-cat-mobile@2x.png 2x" width="280" height="256" alt="Кот до курса">
+            </picture>
+            <picture>
+              <source width="560" height="512" type="image/png" media="(min-width: 768px)" srcset="images/fat-cat-tablet@1x.png 1x, images/fat-cat-tablet@2x.png 2x">
+              <img class="slider__image" src="images/fat-cat-mobile@1x.png" srcset="images/fat-cat-mobile@2x.png 2x" width="280" height="256" alt="Кот после курса">
+            </picture>
           </div>
         </div>
       </div>
@@ -112,7 +126,11 @@
           </address>
         </div>
         <div class="contacts__map contacts__map-img">
-          <img class="contacts__location" src="#" width="320" height="362" alt="Расположение магазина на карте">
+          <picture>
+            <source width="1440" height="400" type="image/png" media="(min-width: 1440px)" srcset="images/map-substrate-desktop@1x.png 1x, images/map-substrate-desktop@2x.png 2x">
+            <source width="768" height="400" type="image/png" media="(min-width: 768px)" srcset="images/map-substrate-tablet@1x.png 1x, images/map-substrate-tablet@2x.png 2x">
+            <img class="contacts__location" src="images/map-substrate-mobile@1x.png" srcset="images/map-substrate-mobile@2x.png 2x" width="320" height="362" alt="Расположение магазина на карте">
+          </picture>
         </div>
       </div>
     </section>
