@@ -1,0 +1,29 @@
+.hero {
+  background-color: $bg-color-secondary;
+  opacity: 0.85;
+}
+
+.hero__title {
+  font-family: $secondary-font;
+  font-size: 36px;
+  line-height: 36px;
+  color: $text-color-third;
+}
+
+.hero__slogan {
+  font-family: $secondary-font;
+  font-size: 14px;
+  line-height: 14px;
+  color: $text-color-third;
+  text-transform: uppercase;
+}
+
+.hero__button {
+  font-family: $secondary-font;
+  font-size: 16px;
+  line-height: 20px;
+  color: $text-color-third;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: $bg-color-secondary;
+}
