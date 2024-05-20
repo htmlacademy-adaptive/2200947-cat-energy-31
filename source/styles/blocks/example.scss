@@ -1,0 +1,38 @@
+.example__wrapper {
+  background-color: $bg-color-fourth;
+}
+
+.example__title {
+  font-family: $secondary-font;
+  font-size: 36px;
+  line-height: 40px;
+  color: $text-color-secondary;
+}
+
+.example__paragraph {
+  font-family: $primary-font;
+  font-size: 14px;
+  line-height: 18px;
+  color: $text-color-primary;
+}
+
+.example__quantity {
+  font-family: $secondary-font;
+  font-size: 24px;
+  line-height: 24px;
+  color: $text-color-secondary;
+}
+
+.example__text {
+  font-family: $primary-font;
+  font-size: 12px;
+  line-height: 100%;
+  color: $text-color-primary;
+}
+
+.example__subtitle {
+  font-family: $secondary-font;
+  font-size: 14px;
+  line-height: 20px;
+  color: $text-color-secondary;
+}

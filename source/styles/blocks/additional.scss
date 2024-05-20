@@ -1,0 +1,48 @@
+.additional__heading {
+  font-family: $secondary-font;
+  font-size: 24px;
+  line-height: 24px;
+  color: $text-color-secondary;
+}
+
+.additional__list {
+  list-style: none;
+}
+
+.additional__link {
+  text-decoration: none;
+}
+
+.additional__title {
+  font-family: $secondary-font;
+  font-size: 16px;
+  line-height: 16px;
+  color: $text-color-fifth;
+  text-transform: uppercase;
+}
+
+.additional__text {
+  font-family: $primary-font;
+  font-size: 14px;
+  line-height: 14px;
+  color: $text-color-primary;
+}
+
+.additional__desc {
+  font-family: $primary-font;
+  font-size: 14px;
+  line-height: 14px;
+  color: $text-color-primary;
+}
+
+.additional__present {
+  background-color: $bg-color-secondary;
+  opacity: 0.85;
+}
+
+.additional__description {
+  font-family: $primary-font;
+  font-size: 16px;
+  line-height: 20px;
+  color: $text-color-third;
+}
